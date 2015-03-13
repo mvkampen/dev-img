@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: ember install && ember server
+  ports:
+    - "4200:4200"
+  volumes:
+    - ~/projects/sx-f:~/
